@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Help for DinoLife: Prehistoric Survival. Restore purchases, understand saves and optional ads, and contact Wandering Turtle Games.">
+  <meta name="color-scheme" content="dark">
+  <title>DinoLife Support — Wandering Turtle Games</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #101c16; color: #f5efde; font: 17px/1.7 system-ui, sans-serif; }
+    main, footer, nav { width: min(940px, 100% - 40px); margin: auto; }
+    nav { display: flex; justify-content: space-between; gap: 20px; padding: 26px 0; border-bottom: 1px solid #435444; }
+    a { color: #e7ce8d; text-underline-offset: 4px; overflow-wrap: anywhere; }
+    a:hover { color: #fff1c5; }
+    a:focus-visible { outline: 3px solid #fff1c5; outline-offset: 5px; }
+    .brand { font-weight: 700; text-decoration: none; }
+    .hero { padding: 55px 0 34px; max-width: 720px; }
+    .eyebrow { color: #e7ce8d; font-size: 13px; font-weight: 700; letter-spacing: .16em; text-transform: uppercase; }
+    h1 { font-family: Georgia, serif; font-size: clamp(38px, 7vw, 64px); line-height: 1.1; margin: 16px 0 22px; }
+    h2 { font-family: Georgia, serif; font-size: 25px; line-height: 1.25; margin: 0 0 15px; }
+    p { margin: 0 0 16px; }
+    .hero p { color: #d4ddcf; font-size: 19px; }
+    .button { display: inline-block; padding: 11px 20px; margin: 8px 10px 0 0; border: 1px solid #b79c60; border-radius: 9px; text-decoration: none; font-weight: 650; }
+    .primary { background: #e7ce8d; color: #17241a; }
+    .primary:hover { background: #fff1c5; color: #17241a; }
+    .grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 18px; margin: 14px 0 34px; }
+    section { background: #1c2e23; border: 1px solid #435444; border-radius: 14px; padding: 28px; }
+    section p:last-child { margin-bottom: 0; }
+    .wide { grid-column: 1 / -1; }
+    ul { padding-left: 22px; margin: 8px 0 20px; }
+    li { margin-bottom: 8px; }
+    .muted { color: #c2cfbe; font-size: 15px; }
+    footer { border-top: 1px solid #435444; padding: 25px 0 35px; color: #c2cfbe; font-size: 14px; }
+    @media (max-width: 650px) { .grid { grid-template-columns: 1fr; } section { padding: 23px; } .hero { padding-top: 36px; } nav { flex-wrap: wrap; } }
+  </style>
+</head>
+<body>
+  <nav aria-label="Main navigation">
+    <a class="brand" href="https://apps.apple.com/app/id6783614616">DinoLife</a>
+    <a href="../">Privacy policy</a>
+  </nav>
+  <main>
+    <header class="hero">
+      <span class="eyebrow">Wandering Turtle Games · Player support</span>
+      <h1>A little help for<br>your next life.</h1>
+      <p>Playing DinoLife: Prehistoric Survival? Find answers below or get in touch about a problem with your game.</p>
+      <a class="button primary" href="mailto:tevin_mcclain@wanderingturtlegames.com?subject=DinoLife%20Support">Email support</a>
+      <a class="button" href="https://github.com/PatrickMcC469/privacy-policy/issues">Report on GitHub</a>
+    </header>
+    <div class="grid">
+      <section aria-labelledby="saves">
+        <h2 id="saves">Continue your life</h2>
+        <p>Choose <strong>Continue</strong> on the main menu to return to your saved Survival run. Starting a <strong>New Run</strong> replaces that run after you confirm.</p>
+        <p>Your game progress is stored on your device. Avoid uninstalling the app while troubleshooting a save problem.</p>
+      </section>
+      <section aria-labelledby="purchases">
+        <h2 id="purchases">Restore purchases</h2>
+        <p>Open the <strong>Store</strong> from the main menu and tap <strong>Restore Purchases</strong>. Use the Apple Account that made the original purchase and a working internet connection.</p>
+        <p>If a purchase is still missing, contact support with the product name and what happened. Do not send payment details.</p>
+      </section>
+      <section aria-labelledby="ads">
+        <h2 id="ads">Ads and rewards</h2>
+        <p><strong>Ad-Free</strong> removes automatic ads. Rewarded videos offer optional bonuses and can be controlled in <strong>Settings</strong>.</p>
+        <p>If a video is unavailable, you can keep playing. If an ad freezes or a reward does not arrive, tell us which action you selected.</p>
+      </section>
+      <section aria-labelledby="reading">
+        <h2 id="reading">Reading and the opening</h2>
+        <p>Tap while a passage is appearing to reveal the remaining text, then tap again to make your choice. Scroll through longer passages and companion details.</p>
+        <p>The Survival opening has a <strong>Skip</strong> button. Turning atmosphere off in <strong>Settings</strong> also bypasses it.</p>
+      </section>
+      <section class="wide" aria-labelledby="contact">
+        <h2 id="contact">Tell us what happened</h2>
+        <p>Email <a href="mailto:tevin_mcclain@wanderingturtlegames.com?subject=DinoLife%20Support">tevin_mcclain@wanderingturtlegames.com</a>, or open a report in our <a href="https://github.com/PatrickMcC469/privacy-policy/issues">public support tracker</a>.</p>
+        <ul>
+          <li>Your iPhone or iPad model, iOS version, and DinoLife version or TestFlight build.</li>
+          <li>Whether you were in Survival or Story Mode, and the steps leading to the problem.</li>
+          <li>What you expected, what happened, and a screenshot if it helps explain the issue.</li>
+        </ul>
+        <p class="muted">GitHub reports are public. Leave out personal information, receipts, and payment details. Never send your password.</p>
+      </section>
+    </div>
+  </main>
+  <footer>© 2026 Wandering Turtle Games · <a href="../">Privacy policy</a></footer>
+</body>
+</html>
