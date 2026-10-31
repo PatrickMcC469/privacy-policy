@@ -1,5 +1,8 @@
-# privacy-policy
-Privacy Policy for DinoLife mobile app
+# DinoLife — Privacy Policy & Player Support
 
-- Privacy policy: https://patrickmcc469.github.io/privacy-policy/
-- Player support: https://patrickmcc469.github.io/privacy-policy/support/
+Hosted pages for [DinoLife: Prehistoric Survival](https://apps.apple.com/us/app/dinolife-prehistoric-survival/id6783614616), required for the App Store listing and published with GitHub Pages.
+
+- **Privacy policy:** https://patrickmcc469.github.io/privacy-policy/
+- **Player support:** https://patrickmcc469.github.io/privacy-policy/support/
+
+© Wandering Turtle Games
